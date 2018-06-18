@@ -6,6 +6,7 @@ function convert(state, type) {
     }
 
     if (type == "A") {
+        //蜜汁疑问 为什么是{event:""} 的object
         return state.event;
     } else {
         return parseInt(state.event) / 10;
