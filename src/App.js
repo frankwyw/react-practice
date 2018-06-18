@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import List from "./List";
 import NameForm from "./NameForm";
+import Calculator from "./Calculator";
 
 class App extends Component {
   render() {
@@ -17,6 +18,8 @@ class App extends Component {
             <List/>
 
             <NameForm/>
+
+            <Calculator />
         </p>
       </div>
     );
