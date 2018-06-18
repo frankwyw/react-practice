@@ -18,7 +18,9 @@ class List extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick() {
+    handleClick(event) {
+        // alert(event)
+
         // this.state.isToggleOn = !this.state.isToggleOn
         // this.forceUpdate()
 
